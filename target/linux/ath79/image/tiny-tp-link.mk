@@ -77,7 +77,7 @@ endef
 TARGET_DEVICES += tplink_tl-mr3420-v3
 
 define Device/tplink_tl-wa701nd-v1
-  $(Device/tplink-4m)
+  $(Device/tplink-16m)
   SOC := ar7240
   DEVICE_MODEL := TL-WA701ND
   DEVICE_VARIANT := v1

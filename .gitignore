@@ -33,3 +33,12 @@ git-src
 .cproject
 .ccache
 .vscode*
+/build_dir/
+/staging_dir/
+/tmp/
+/bin/
+/logs/
+/dl/
+/feeds/
+/feeds.conf
+/.config
