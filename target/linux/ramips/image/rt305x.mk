@@ -560,7 +560,7 @@ TARGET_DEVICES += fon_fonera-20n
 
 define Device/hame_mpr-a1
   SOC := rt5350
-  IMAGE_SIZE := 3776k
+  IMAGE_SIZE := 16064k
   UIMAGE_NAME:= Linux Kernel Image
   DEVICE_VENDOR := HAME
   DEVICE_MODEL := MPR

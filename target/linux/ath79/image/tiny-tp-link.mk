@@ -23,12 +23,12 @@ endef
 TARGET_DEVICES += tplink_tl-mr3020-v1
 
 define Device/tplink_tl-mr3040-v2
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9331
   DEVICE_MODEL := TL-MR3040
   DEVICE_VARIANT := v2
   DEVICE_PACKAGES := kmod-usb-chipidea2 kmod-usb-ledtrig-usbport
-  TPLINK_HWID := 0x30400002
+  TPLINK_HWID := 0x30400001
   SUPPORTED_DEVICES += tl-mr3040-v2
 endef
 TARGET_DEVICES += tplink_tl-mr3040-v2
